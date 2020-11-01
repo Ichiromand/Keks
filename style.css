@@ -1,0 +1,130 @@
+body {
+    min-width: 1015px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .container2 {
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 125px;
+  
+  }
+
+  .page-header {
+      min-height: 495px;
+      padding-top: 55px;
+      background-image: url(img/wheat-back.jpg);
+      background-repeat: no-repeat;
+      background-position: bottom;
+      background-size: cover;
+      background-color: #363636;
+  }
+
+  .logo {
+      margin-right: 58px;
+      float: left;
+  }
+   
+  .main-nav li a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #ffffff;
+      font-weight: bold;
+  }
+
+  .main-nav li {
+      float: left;
+      list-style: none;
+      border-top: 1px solid rgba(255, 255, 255, 0.3);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+     
+  }
+
+  .main-nav {
+      margin: 0;
+      line-height: 60px;
+      vertical-align: middle;
+  }
+
+  .spisok {
+      width: 650px;
+      height: 80px;
+  }
+
+  .promo {
+    width: 100%;
+    font-size: 70px;
+    line-height: 70px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .allnews {
+    min-height: 1085px;
+    margin-top: 80px;
+  }
+
+.news {
+  width: 800px;
+  margin: 0 auto;
+}
+
+  .news h2 {
+font-size: 40px;
+line-height: 61px;
+font-weight: bold;
+text-transform: uppercase;
+margin-bottom: 40px;
+  }
+
+.bottle1, .bottle2 {
+width: 365px;
+margin-left: 35px;
+}
+
+.bottle1 {
+float: left;
+}
+
+.bottle2 {
+  float: right;
+}
+
+.bottle1 h3, .bottle2 h3 {
+  font-size: 40px;
+line-height: 61px;
+font-weight: bold;
+}
+
+.bottle1 table, .bottle2 table {
+  border-collapse: collapse;
+}
+
+.bottle1 .table1 p, .bottle2 .table2 p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #404040;
+}
+
+.bottle1 table td, .bottle2 table td {
+  border: 1px solid black;
+  width: 80px;
+  height: 40px;
+  text-align: center;
+  font-size: 16px;
+line-height: 41px;
+font-weight: bold;
+}
+
+
