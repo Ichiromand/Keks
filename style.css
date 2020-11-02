@@ -40,6 +40,11 @@ body {
       text-transform: uppercase;
       color: #ffffff;
       font-weight: bold;
+      padding-right: 50px;
+  }
+
+  .main-nav li:last-child a {
+    padding-right: 0px;
   }
 
   .main-nav li {
@@ -47,18 +52,12 @@ body {
       list-style: none;
       border-top: 1px solid rgba(255, 255, 255, 0.3);
       border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-     
   }
 
   .main-nav {
       margin: 0;
       line-height: 60px;
       vertical-align: middle;
-  }
-
-  .spisok {
-      width: 650px;
-      height: 80px;
   }
 
   .promo {
