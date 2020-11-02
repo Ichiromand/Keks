@@ -6,7 +6,8 @@ body {
     line-height: 24px;
     font-family: "Arial", sans-serif;
   }
-  
+
+
   .clearfix::after {
     content: "";
     display: table;
@@ -15,7 +16,7 @@ body {
 
   .header-top {
     width: 800px;
-    margin: 0 auto;
+      margin: 0 auto;
   }
 
   .page-header {
@@ -26,11 +27,11 @@ body {
       background-position: bottom;
       background-size: cover;
       background-color: #363636;
+  
   }
 
   .logo {
       margin-right: 59px;
-      float: left;
       display: inline-block;
       vertical-align: middle;
   }
@@ -51,7 +52,7 @@ body {
   .main-nav li {
       float: left;
       list-style: none;
-      padding: 20px 0;
+      padding: 13px 0;
       border-top: 1px solid rgba(255, 255, 255, 0.3);
       border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
@@ -64,12 +65,14 @@ body {
   }
 
   .promo {
-    width: 100%;
     font-size: 70px;
-    line-height: 70px;
+    line-height: 67px;
     color: #ffffff;
-    font-weight: bold;
+    font-weight: 550;
     text-align: center;
+    padding-top: 45px;
+    width: 800px;
+    margin: 0 auto;
   }
 
   .allnews {
@@ -87,12 +90,14 @@ font-size: 40px;
 line-height: 61px;
 font-weight: bold;
 text-transform: uppercase;
-margin-bottom: 40px;
+margin-bottom: 80px;
   }
 
 .bottle1, .bottle2 {
-width: 365px;
-margin-left: 35px;
+width: 337px;
+padding-left: 35px;
+margin-right: 27px;
+border-left: 1px solid #e5e5e5;
 }
 
 .bottle1 {
@@ -107,6 +112,7 @@ float: left;
   font-size: 40px;
 line-height: 61px;
 font-weight: bold;
+margin:0;
 }
 
 .bottle1 table, .bottle2 table {
@@ -129,14 +135,50 @@ line-height: 41px;
 font-weight: bold;
 }
 
-.table1 {
+.table1, .table2 {
   position:relative;
-  left: 200px;
+  left: 175px;
+  top: 40px;
   width: 160px;
+  z-index: 1;
 }
 
+.content {
+  position:relative;
+  top: -120px;
+}
+
+.btn1 {
+  border: 2px  solid #834600;
+  background-color: #ffffff;
+  width: 143px;
+  height: 46px;
+  text-decoration: none;
+  color: #834600;
+  font-size: 16px;
+line-height: 20px;
+font-weight: 550;
+text-transform: uppercase;
+padding: 15px 20px;
+}
+
+.btn2 {
+  background-color: #834600;
+  width: 109px;
+  height: 46px;
+  border: 2px  solid #834600;
+  margin-right: 25px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+line-height: 20px;
+font-weight: 550;
+text-transform: uppercase;
+padding: 15px 20px;
+}
+
+
 .features {
-  padding-top: 50px;
   padding-bottom: 55px;
 }
 
@@ -148,34 +190,37 @@ font-weight: bold;
 
 .feature-item {
   float: left;
-  width: 279px;
-  padding-top: 90px;
-  padding-right: 30px;
-  padding-left: 30px;
+  width: 33%;
+ border-left: 1px solid #e5b56b;
   text-align: center;
-  border-left: 1px solid #d9d9d9;
 }
 
 .feature-item:first-child {
-  border-left-color: transparent;
+  border-left: none;
 }
 
 .feature-choice {
-  background: url("img/feature-1.png") top center no-repeat;
+  background: url("img/icon-brew.png") top center no-repeat;
 }
 
 .feature-quality {
-  background: url("img/feature-2.png") top center no-repeat;
+  background: url("img/icon-matreshka.png") top center no-repeat;
 }
 
 .feature-safety {
-  background: url("img/feature-3.png") top center no-repeat;
+  background: url("img/icon-thumbsup.png") top center no-repeat;
 }
 
 .feature-title {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 30px;
-  font-family: "Georgia", serif;
-  color: #a38b70;
+  text-transform: uppercase;
+}
+
+.container1 {
+  width: 1200px;
+  margin: 0 auto;
+  height: 410px;
+  background-color: #ffca78;
 }
