@@ -12,17 +12,15 @@ body {
     display: table;
     clear: both;
   }
-  
-  .container2 {
-    width: 800px;
+
+  .header-top {
+    width: 850px;
     margin: 0 auto;
-    margin-bottom: 125px;
-  
   }
 
   .page-header {
-      min-height: 495px;
-      padding-top: 55px;
+      min-height: 490px;
+      padding-top: 60px;
       background-image: url(img/wheat-back.jpg);
       background-repeat: no-repeat;
       background-position: bottom;
@@ -31,8 +29,10 @@ body {
   }
 
   .logo {
-      margin-right: 58px;
+      margin-right: 59px;
       float: left;
+      display: inline-block;
+      vertical-align: middle;
   }
    
   .main-nav li a {
@@ -41,6 +41,7 @@ body {
       color: #ffffff;
       font-weight: bold;
       padding-right: 50px;
+
   }
 
   .main-nav li:last-child a {
@@ -50,14 +51,16 @@ body {
   .main-nav li {
       float: left;
       list-style: none;
+      padding: 20px 0;
       border-top: 1px solid rgba(255, 255, 255, 0.3);
       border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 
   .main-nav {
       margin: 0;
-      line-height: 60px;
+      display: inline-block;
       vertical-align: middle;
+      padding: 0;
   }
 
   .promo {
@@ -126,4 +129,53 @@ line-height: 41px;
 font-weight: bold;
 }
 
+.table1 {
+  position:relative;
+  left: 200px;
+  width: 160px;
+}
 
+.features {
+  padding-top: 50px;
+  padding-bottom: 55px;
+}
+
+.features ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.feature-item {
+  float: left;
+  width: 279px;
+  padding-top: 90px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: center;
+  border-left: 1px solid #d9d9d9;
+}
+
+.feature-item:first-child {
+  border-left-color: transparent;
+}
+
+.feature-choice {
+  background: url("img/feature-1.png") top center no-repeat;
+}
+
+.feature-quality {
+  background: url("img/feature-2.png") top center no-repeat;
+}
+
+.feature-safety {
+  background: url("img/feature-3.png") top center no-repeat;
+}
+
+.feature-title {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 30px;
+  font-family: "Georgia", serif;
+  color: #a38b70;
+}
