@@ -172,9 +172,7 @@ padding: 15px 20px;
 }
 
 .btn2 {
-  background-color: #834600;
-  width: 109px;
-  height: 46px;
+  background-color: #834600;  
   border: 2px  solid #834600;
   margin-right: 25px;
   text-decoration: none;
@@ -216,7 +214,6 @@ padding: 15px 20px;
 }
 
 .container1 {
-  width: 1200px;
   margin: 0 auto;
   height: 410px;
   background-color: #ffca78;
@@ -425,4 +422,242 @@ font-weight: 500;
 background-color: black;
 padding: 2px 5px;
 border-radius: 2px;
+}
+
+.container5 {
+  height: 1185px;
+  background-color: #ffca78;
+  text-transform: uppercase;
+}
+
+.container5 h2 {
+font-size: 40px;
+line-height: 61px;
+font-weight: bold;
+margin-top: 90px;
+padding: 0;
+padding-top: 90px;
+padding-bottom: 50px;
+}
+
+.order {
+  margin: 0 auto;
+  width: 800px;
+}
+
+.order p {
+margin: 0;
+text-transform: none;
+width: 701px;
+height: 106px;
+font-size: 16px;
+line-height: 30px;
+color: #404040;
+}
+
+.order label {
+  font-size: 16px;
+line-height: 20px;
+font-weight: bold;
+}
+
+.name, .email, .volume {
+  width: 630px;
+}
+
+.name input,
+.email input,
+.volume select {
+  height: 50px;
+  width: 630px;
+  padding: 0;
+  margin-top: 10px;
+  background-color: #e5b56c;
+  border-color: transparent;
+  color: #a07e4b;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.phone, .dopphone {
+  width: 315px;
+  float: left;
+}
+
+.phone input, .dopphone input {
+width: 290px;
+height: 50px;
+padding: 0;
+margin-top: 10px;
+background-color: #e5b56c;
+border-color: transparent;
+color: #a07e4b;
+text-transform: uppercase;
+font-weight: bold;
+margin-bottom: 25px;
+}
+
+.dopphone {
+  margin-left: 25px;
+}
+
+.message textarea {
+width: 630px;
+height: 120px;
+padding: 0;
+margin-top: 10px;
+background-color: #e5b56c;
+border-color: transparent;
+color: #a07e4b;
+text-transform: uppercase;
+font-weight: bold;
+margin-bottom: 25px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  height: 300px;
+}
+
+.footer-top {
+    padding-top: 60px;
+   width: 800px;
+   margin: 0 auto;
+   margin-bottom: 45px;
+}
+
+.logo img{
+  vertical-align: top;
+  transform: translate(-75px, 0);
+}
+
+.logo {
+    margin-right: 59px;
+    display: inline-block;
+    vertical-align: middle;
+}
+ 
+.main-nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    padding-right: 53px;
+
+}
+
+.main-nav li:last-child a {
+  padding-right: 0px;
+}
+
+.main-nav li {
+    float: left;
+    list-style: none;
+    padding: 15px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.main-nav {
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+    height: 60px;
+}
+
+.footer-bottom {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.social {
+float: left;
+margin-right: 90px;
+}
+
+.social td {
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  background-color: #1b1b1b;
+  margin: 0;
+  border-right: 1px solid #322d24;
+  border-top: 1px solid #322d24;  
+  border-bottom: 1px solid #322d24;
+}
+
+.inst {
+  background-image: url(img/icon-insta.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-left: 1px solid #322d24;
+}
+
+.facebook {
+  background-image: url(img/icon-fb.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.vk {
+  background-image: url(img/icon-vk.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.no {
+  float: left;
+  width: 210px;
+  height: 70px;
+  margin-right: 180px;
+}
+
+.no p {
+font-size: 14px;
+line-height: 20px;
+color: #989898;
+}
+
+.from span {
+  float: left;
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  background-color: #1b1b1b;
+  margin: 0;
+  border: 1px solid #322d24;
+  background-image: url(img/htmlacademy.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 30px;
+
+}
+
+.from img {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.from div {
+  float: left;
+  width: 200px;
+  height: 70px;
+  width: 214px;
+height: 52px;
+font-size: 14px;
+line-height: 70px;
+color: #989898;
+font-weight: bold;
+}
+
+.from a {
+  font-size: 14px;
+line-height: 70px;
+color: #989898;
+font-weight: bold;
+text-decoration: none;
 }
