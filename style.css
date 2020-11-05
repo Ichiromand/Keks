@@ -315,6 +315,10 @@ margin: 0;
 margin-top: 90px;
 }
 
+.container3 img {
+  transform: translate(350px, 285px);
+}
+
 .pressa dd:last-of-type {
   margin: 0;
   margin-top: 40px;
